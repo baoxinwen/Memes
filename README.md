@@ -6,9 +6,6 @@ https://baoxinwen.github.io/Memes/
 
 ## Intro
 
-对我另一个 [Java后端项目](https://github.com/Dituon/petpet) 的前端实现,
-模板引用自 [Petpet](https://github.com/Dituon/petpet)
-
 项目结构
 
 ```text
