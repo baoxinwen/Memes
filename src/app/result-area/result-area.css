@@ -1,0 +1,13 @@
+.result-area {
+    top: 2.4em;
+    bottom: 0;
+    position: sticky;
+    min-height: 8em;
+    border-radius: 16px;
+}
+
+.result-area>canvas {
+    border-radius: inherit;
+    width: max(100%, 8em);
+    max-width: 32em;
+}

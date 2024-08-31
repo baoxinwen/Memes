@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta name="theme-color" content="#ff8ba7"/>
+    <link rel="apple-touch-icon" sizes="192x192" href="./icons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icons/icon-96x96.png">
+    <link rel="icon" href="./icons/icon-128x128.png">
+
+    <link rel="stylesheet" type="text/css" href="./src/app/app.css">
+    <style>
+        .readme {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: var(--sub-bg);
+        }
+
+        .readme > div, details {
+            background-color: var(--bg);
+            width: min(26em, 80vw);
+            margin-top: 2em;
+            border-radius: 16px;
+            border: var(--text) 2px dashed;
+        }
+
+        summary {
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .readme video {
+            display:table;
+            width: 100%;
+            border-radius: 0 0 16px 16px;
+            border-top: var(--sub-bg) 2px dashed;
+        }
+    </style>
+    <title>readme</title>
+</head>
+<body class="readme">
+<div>
+    <h2>选择模板</h2>
+    <video src="./video/select-template.mp4" autoplay muted loop></video>
+</div>
+<div>
+    <h2>上传头像</h2>
+    <p>拖拽或选择上传</p>
+    <video src="./video/upload-avatar.mp4" autoplay muted loop></video>
+</div>
+<div>
+    <h2>查看预览</h2>
+    <p>调整图片速度</p>
+    <video src="./video/result-preview.mp4" autoplay muted loop></video>
+</div>
+<details>
+    <summary>进阶操作</summary>
+    <h3>调整模板排列方式</h3>
+    <video src="./video/change-template-size.mp4" autoplay muted loop></video>
+    <h3>调整头像尺寸</h3>
+    <video src="./video/edit-avatar.mp4" autoplay muted loop></video>
+</details>
+<script type="module" src="./src/app/utils/show-readme.ts"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@import "../app/app.css";
+
+dialog.readme[open] {
+    border-radius: 16px;
+    border: none;
+    padding: 1em;
+    width: calc(min(50vw,24em) + 8em);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+dialog.readme a {
+    color: var(--hl-text);
+}
